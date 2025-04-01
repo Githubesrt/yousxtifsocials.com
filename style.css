@@ -1,0 +1,56 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Great Vibes', cursive;
+  background: linear-gradient(to right, #FF7E5F, #feb47b); /* Autumn gradient */
+  color: white;
+  text-align: center;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 80px 0;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  margin-top: 10px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.socials a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+  margin: 0 20px;
+  transition: transform 0.3s ease;
+}
+
+.socials a:hover {
+  transform: scale(1.2);
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
