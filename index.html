@@ -62,21 +62,49 @@
       width: 100%;
       bottom: 0;
     }
+
+    .images {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+      gap: 30px;
+    }
+
+    .images img {
+      width: 200px;
+      height: auto;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .images img:hover {
+      transform: scale(1.1);
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>Welcome to My Socials!</h1>
-    <p>Follow me on my social media profiles</p>
+    <p>Follow me on Roblox and YouTube</p>
   </header>
 
   <section class="socials">
-    <a href="roblox.com/users/3601775579/profile" target="_blank">Roblox</a>
-    <a href="https://youtube.com/@Yousxtif" target="_blank">YouTube</a>
+    <!-- Replace # with your actual profile URLs -->
+    <a href="https://www.roblox.com/users/3601775579/profile" target="_blank">Roblox</a>
+    <a href="https://www.youtube.com/c/@YousxtifSky" target="_blank">YouTube</a>
+  </section>
+
+  <!-- Cute cat & bear images -->
+  <section class="images">
+    <!-- Cute Cat Image -->
+    <img src="https://images.unsplash.com/photo-1574158622683-1b7b3c9f5f2f" alt="Cute Cat">
+
+    <!-- Cute Bear Image -->
+    <img src="https://images.unsplash.com/photo-1518834107659-35a06d2ea8d1" alt="Cute Bear">
   </section>
 
   <footer>
-    <p>© 2025 Yousxtiff= | All rights reserved</p>
+    <p>© 2025 Your Name | All rights reserved</p>
   </footer>
 </body>
 </html>
